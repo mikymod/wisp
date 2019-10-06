@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "15f6fcc8-6903-4888-bd85-7fa4bca98678",
+            "Value": {
+                "id": "d4432476-f8ac-40fa-ab2f-cd024d26b5f3",
+                "resourcePath": "sounds\\snd_theme_3_5\\snd_theme_3_5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "180a4ec3-fc8f-45a7-8d4a-107ebec458b9",
             "Value": {
                 "id": "9c9c4b71-7b67-4cc9-a26d-d102683926be",
@@ -172,6 +180,14 @@
                 "id": "9a0e1164-58d8-47fa-8c65-18d417ed77ab",
                 "resourcePath": "scripts\\input_vibrate\\input_vibrate.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "25829892-6d78-4db8-bad9-0eb38270eaf1",
+            "Value": {
+                "id": "3f2ce134-22b2-4e11-a88b-97fed524fb79",
+                "resourcePath": "sounds\\snd_theme_6_8\\snd_theme_6_8.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -647,6 +663,14 @@
             }
         },
         {
+            "Key": "ca133faf-c8e1-4d2d-8e65-6c06b668788f",
+            "Value": {
+                "id": "42aba20e-884c-4de7-9b5d-8feb5c1f0b8b",
+                "resourcePath": "sounds\\snd_theme_0_2\\snd_theme_0_2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "9b2feaad-38cb-400b-a140-e93f88e37978",
@@ -820,6 +844,14 @@
                 "id": "08944344-9689-477e-9691-01160df91ba6",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4478d2c-f607-49a8-be95-8363037ab423",
+            "Value": {
+                "id": "1a2314a0-245a-45b0-9282-69103a153a10",
+                "resourcePath": "sounds\\snd_full_loop\\snd_full_loop.yy",
+                "resourceType": "GMSound"
             }
         },
         {
