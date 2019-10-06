@@ -1,0 +1,1 @@
+global.music_game_menu = audio_play_sound(snd_game_menu, 1, true);

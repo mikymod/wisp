@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "50253488-7638-d186-bb40-56d7c9cee6a6",
+            "Value": {
+                "id": "e3c37caf-bcdf-45e1-8f42-85db183c8714",
+                "resourcePath": "tilesets\\ts_ground\\ts_ground.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "56e9cc15-0d4b-4043-bf4c-905a61fc5a08",
             "Value": {
                 "id": "1d0f2053-2764-46c9-9c72-50ef12b1a1d5",
@@ -420,6 +428,14 @@
                 "id": "474e24a8-21a6-441f-9dfa-596999dcdf66",
                 "resourcePath": "scripts\\input_check_released\\input_check_released.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6d52c201-1a71-4bd5-b20f-6894b6f56ee1",
+            "Value": {
+                "id": "a17a7160-a3ea-4073-b794-c3072b9cadc6",
+                "resourcePath": "sprites\\spr_bubble_hazard\\spr_bubble_hazard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "9effd813-e7d7-44d9-af6c-98b41c190688",
+            "Value": {
+                "id": "90514644-727c-4e03-a134-d232f4282ccc",
+                "resourcePath": "objects\\obj_bubble_hazard\\obj_bubble_hazard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a58996ef-5a85-4756-b83e-d50a4c192eb6",
             "Value": {
                 "id": "b29eb6c7-a286-4057-a007-09756ae17a11",
@@ -551,6 +575,14 @@
             }
         },
         {
+            "Key": "aa96f9c7-21b8-49f6-8528-f00a8ecb4d74",
+            "Value": {
+                "id": "de8a7b8a-c42e-406d-aa47-a78bff0e345c",
+                "resourcePath": "sounds\\snd_game_menu\\snd_game_menu.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ab440b51-691c-4be1-a24b-0db165cd6bc0",
             "Value": {
                 "id": "c5d02c4f-8208-4489-a545-9c5ad6849bc7",
@@ -580,6 +612,14 @@
                 "id": "ef7b5cb8-ba7c-46d5-b260-f8586f160d0a",
                 "resourcePath": "scripts\\input_step_end\\input_step_end.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b426e143-4d28-0984-d9c0-42b3b83c0ea7",
+            "Value": {
+                "id": "117c5834-5865-4115-aed4-da61b0c75da5",
+                "resourcePath": "sprites\\spr_ground\\spr_ground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
