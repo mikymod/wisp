@@ -14,3 +14,12 @@ if (on_ground && !prev_on_ground)
 {
 	
 }
+
+switch (_state_curr)
+{
+	case PlayerState.Idle:
+	case PlayerState.Run:
+	case PlayerState.Jump:
+	case PlayerState.Fall:
+	case PlayerState.Dead: break;
+}
