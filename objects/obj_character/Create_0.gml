@@ -1,0 +1,66 @@
+// Input
+input_disabled  = false;
+key_left        = 0;
+key_right       = 0;
+key_up          = 0;
+key_down        = 0;
+key_action      = 0;
+key_action_held = 0;
+key_discharge   = 0;
+
+// Movement
+vel_x = 0;
+vel_y = 0;
+cur_jump_speed = 0;
+
+// Subpixel movement
+reminder_x = 0;
+reminder_y = 0;
+
+// Orientation
+facing = 1;
+
+// Collisions
+on_ground       = place_meeting(x, y + 1, obj_solid);
+collision_left  = place_meeting(x - 1, y, obj_solid);
+collision_right = place_meeting(x + 1, y, obj_solid);
+collision_top   = place_meeting(x, y - 1, obj_solid);
+ground_target   = noone;
+wall_target     = noone;
+
+// Jump juice
+_jump_buffer_time = 0;
+_jump_grace_avail = false;
+
+// States
+enum PlayerState                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+{
+	Idle,
+	Run,
+	Jump,
+	Fall,
+	Carry,
+	Dead,
+	LENGTH
+}
+state_machine_init();
+state_create(PlayerState.Idle,  player_idle);
+state_create(PlayerState.Run,   player_run);
+state_create(PlayerState.Jump,  player_jump);
+state_create(PlayerState.Fall,  player_fall);
+state_create(PlayerState.Dead,  player_dead);
+state_set_default(PlayerState.Idle);
+
+// Power Levels
+enum PowerLevel
+{
+	Normal,
+	Agile,
+	Strength,
+	LENGTH
+}
+
+power_level = PowerLevel.Normal;
+wisps_list = array_create(PowerLevel.LENGTH);
+discharge_avail = true;
+discharge_cd = 60;
