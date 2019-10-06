@@ -39,7 +39,7 @@ enum PlayerState
 	Run,
 	Jump,
 	Fall,
-	Carry,
+	Land,
 	Dead,
 	LENGTH
 }
@@ -48,6 +48,7 @@ state_create(PlayerState.Idle,  player_idle);
 state_create(PlayerState.Run,   player_run);
 state_create(PlayerState.Jump,  player_jump);
 state_create(PlayerState.Fall,  player_fall);
+state_create(PlayerState.Land, player_land);
 state_create(PlayerState.Dead,  player_dead);
 state_set_default(PlayerState.Idle);
 

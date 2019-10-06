@@ -1,7 +1,13 @@
+if (collision_left || collision_right)
+	sprite_index = spr_push_blue;
+else
+	sprite_index = spr_fall_blue;
+
+
 // Idle
 if (on_ground)
 {
-	state_switch(PlayerState.Idle, true);
+	state_switch(PlayerState.Land, true);
 }
 
 // Wall jump

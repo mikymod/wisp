@@ -8,18 +8,30 @@ collision_top   = place_meeting(x, y - 1, obj_solid);
 ground_target = (on_ground ? instance_place(x, y + 1, obj_solid) : noone);
 wall_target   = (collision_left ? instance_place(x - 1, y, obj_solid) : 
 					(collision_right ? instance_place(x + 1, y, obj_solid) : noone));
-					
-// Land 
-if (on_ground && !prev_on_ground)
-{
-	
-}
 
-switch (_state_curr)
-{
-	case PlayerState.Idle:
-	case PlayerState.Run:
-	case PlayerState.Jump:
-	case PlayerState.Fall:
-	case PlayerState.Dead: break;
-}
+//switch (_state_curr)
+//{
+//	case PlayerState.Idle:
+//	{
+//		sprite_index = spr_idle_blue;
+//		break;
+//	}
+//	case PlayerState.Run:
+//	{
+//		sprite_index = spr_walk_blue;
+//		break;
+//	}
+//	case PlayerState.Jump:
+//	{
+//		sprite_index = spr_jump_blue;
+//		break;
+//	}	
+//	case PlayerState.Fall:
+//	{
+//		break;
+//	}	
+//	case PlayerState.Dead:
+//	{
+//		break;
+//	}	
+//}

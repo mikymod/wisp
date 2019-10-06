@@ -1,3 +1,11 @@
+if (collision_left || collision_right)
+{
+	if (!type_of_obj(obj_movable_block, wall_target))
+		sprite_index = spr_push_blue;
+}
+else
+	sprite_index = spr_walk_blue;
+
 // Ledge assistance
 // If player is not grounded (and should switch to Fall state next frame),
 // checks if {key_jump} is pressed after {jump_grace_step} steps.

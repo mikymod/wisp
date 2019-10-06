@@ -1,8 +1,13 @@
 // Jump
 if (state_is_new())
-{
+{	
 	vel_y = -cur_jump_speed;
 }
+
+if (collision_left || collision_right)
+	sprite_index = spr_push_blue;
+else
+	sprite_index = spr_jump_blue;
 
 // Variable Jump
 if (!key_action_held && vel_y < 0)

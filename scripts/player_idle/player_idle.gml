@@ -1,3 +1,5 @@
+sprite_index = spr_idle_blue;
+
 // Run
 if (key_left || key_right)
 {
