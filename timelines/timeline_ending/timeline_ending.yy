@@ -5,6 +5,23 @@
     "name": "timeline_ending",
     "momentList": [
         {
+            "id": "d7f945cc-6901-431c-8f45-cd80089a33eb",
+            "modelName": "GMMoment",
+            "mvc": "1.0",
+            "name": "",
+            "evnt": {
+                "id": "cc955f4e-e01e-498c-828f-c9adf1d41277",
+                "modelName": "GMEvent",
+                "mvc": "1.0",
+                "IsDnD": false,
+                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+                "enumb": 1,
+                "eventtype": 0,
+                "m_owner": "ad2923fa-9d20-4975-a6ca-e77a34ba67c1"
+            },
+            "moment": 1
+        },
+        {
             "id": "bbb2bf74-3b09-431f-b8ae-47aae31b385b",
             "modelName": "GMMoment",
             "mvc": "1.0",
@@ -15,11 +32,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 0,
+                "enumb": 60,
                 "eventtype": 0,
                 "m_owner": "ad2923fa-9d20-4975-a6ca-e77a34ba67c1"
             },
-            "moment": 0
+            "moment": 60
         },
         {
             "id": "4b7a9923-5cc5-44fe-aaf1-c3c37a3875ef",
