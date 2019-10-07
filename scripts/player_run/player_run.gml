@@ -1,3 +1,4 @@
+// Change Sprite
 if (collision_left || collision_right)
 {
 	if (!type_of_obj(obj_movable_block, wall_target))
@@ -5,6 +6,10 @@ if (collision_left || collision_right)
 }
 else
 	sprite_index = spr_walk_blue;
+	
+// Audio
+if (!audio_is_playing(snd_run))
+	audio_play_sound(snd_run, 2, false);
 
 // Ledge assistance
 // If player is not grounded (and should switch to Fall state next frame),

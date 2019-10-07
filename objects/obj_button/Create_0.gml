@@ -5,4 +5,7 @@ with (obj_hatch)
 	ds_list_add(other.hatches, id);
 }
 
-show_debug_message("Hatches size: " + string(ds_list_size(hatches)));
+// Set image's speed to 0
+image_speed = 0;
+
+active_anim = false;

@@ -2,6 +2,11 @@
 if (state_is_new())
 {	
 	vel_y = -cur_jump_speed;
+	
+	if (power_level > 0)
+		audio_play_sound(snd_high_jump, 2, false);
+	else
+		audio_play_sound(snd_jump, 2, false);
 }
 
 if (collision_left || collision_right)

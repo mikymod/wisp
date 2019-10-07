@@ -1,15 +1,24 @@
+// Block position
+vel_x = 0;
+vel_y = 0;
+
+// Change sprite
+sprite_index = spr_death_blue;
+
 if (state_is_new())
 {
-	instance_deactivate_object(obj_character);
+	// Reset animation
+	image_index = 0;
 	
-//	// Transition
-//	with (instance_create_layer(0, 0, "transitions", obj_transition))
-//	{
-//		type = TransitionType.RESTART;
-//		sprite = spr_double_vertical;
-//		length = 1;		
-//		active = true;
-//	}
-	room_restart();
-
+	// Play sound
+	audio_play_sound(snd_death, 2, false);
 }
+
+// Restart at animation's end
+if (image_index + image_speed >= image_number)
+{
+	room_restart();
+}
+
+
+

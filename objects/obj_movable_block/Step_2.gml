@@ -23,3 +23,10 @@ repeat (abs(_move_y))
 	else
 		vel_y = 0;
 }
+
+// Play sound
+if (vel_x != 0)
+{
+	if (!audio_is_playing(snd_carry_box))
+		audio_play_sound(snd_carry_box, 2, false);
+}

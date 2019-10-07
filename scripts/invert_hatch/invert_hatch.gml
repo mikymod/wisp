@@ -1,3 +1,4 @@
+// Invert hatch
 for (i = 0; i < ds_list_size(hatches); i++)
 {
 	var hatch = hatches[|i];
@@ -18,4 +19,8 @@ for (i = 0; i < ds_list_size(hatches); i++)
 		active = !active;
 	}
 }
+
+// Play sound
+audio_play_sound(snd_hatch_invert, 1, false);
+
 

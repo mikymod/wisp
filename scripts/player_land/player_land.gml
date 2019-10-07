@@ -7,5 +7,4 @@ if (image_index + image_speed >= image_number)
 {
 	state_switch(PlayerState.Idle);
 }
-
  

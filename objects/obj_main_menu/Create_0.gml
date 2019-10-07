@@ -7,5 +7,6 @@ with (obj_menu_button)
 }
 
 cur_button_index = 0;
+prev_button_index = -1;
 max_button_index = ds_list_size(buttons) - 1;
 
