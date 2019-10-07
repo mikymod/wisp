@@ -1,4 +1,4 @@
-audio_stop_sound(global.music_game_menu);
+audio_stop_all();
 global.music_full_loop = audio_play_sound(snd_full_loop, 1, true);
 global.music_theme_0_2 = audio_play_sound(snd_theme_0_2, 1, true);
 global.music_theme_3_5 = audio_play_sound(snd_theme_3_5, 1, true);
