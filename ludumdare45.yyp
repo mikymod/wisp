@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "6b0af4f9-e22d-4966-8451-ee6110d5d591",
+            "Value": {
+                "id": "2487e10b-d11e-49f4-9e6a-ccdf84333813",
+                "resourcePath": "sounds\\snd_chest\\snd_chest.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6d52c201-1a71-4bd5-b20f-6894b6f56ee1",
             "Value": {
                 "id": "a17a7160-a3ea-4073-b794-c3072b9cadc6",
