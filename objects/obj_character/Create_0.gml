@@ -70,3 +70,6 @@ power_level = PowerLevel.Normal;
 wisps_list = array_create(PowerLevel.LENGTH);
 powerdown_avail = true;
 discharge_cd = 60;
+
+// Timeline
+timeline = timeline_ending;

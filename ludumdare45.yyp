@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "3405e221-ca6f-44b6-a2ec-403dcdb62255",
+            "Value": {
+                "id": "4e21d619-b355-4114-9217-b510ebd7d4af",
+                "resourcePath": "objects\\obj_trigger\\obj_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38cadefd-fe7a-4fc6-8e7c-bf8e2e8cacd6",
             "Value": {
                 "id": "d9c630e3-8f6a-46d3-93da-fbb11128ad3b",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "8197958c-40c5-4513-804b-411c2717a492",
+            "Value": {
+                "id": "bfb712a1-9100-44b8-810f-453d626656d3",
+                "resourcePath": "sprites\\spr_trigger\\spr_trigger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81df17e4-e792-4309-ae2e-85dd2262dccc",
             "Value": {
                 "id": "75e2237f-beb8-4a33-bcf7-034014f58808",
@@ -706,7 +722,7 @@
             "Key": "ad2923fa-9d20-4975-a6ca-e77a34ba67c1",
             "Value": {
                 "id": "9381d59e-c85d-413a-9820-2f762ce48afb",
-                "resourcePath": "timelines\\timeline0\\timeline0.yy",
+                "resourcePath": "timelines\\timeline_ending\\timeline_ending.yy",
                 "resourceType": "GMTimeline"
             }
         },
