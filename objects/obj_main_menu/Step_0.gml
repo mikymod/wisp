@@ -20,9 +20,9 @@ cur_button_index = clamp(cur_button_index, 0, max_button_index);
 with (obj_menu_button)
 {
 	if (id == other.buttons[|other.cur_button_index])
-		image_index = 0;
+		image_speed = 1;
 	else
-		image_index = 1;
+		image_speed = 0;
 }
 
 // Activate button
