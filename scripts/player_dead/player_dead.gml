@@ -12,6 +12,9 @@ if (state_is_new())
 	
 	// Play sound
 	audio_play_sound(snd_death, 2, false);
+	
+	// Camera shake
+	camera_shake(10);
 }
 
 // Restart at animation's end
