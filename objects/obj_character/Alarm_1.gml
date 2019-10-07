@@ -1,3 +1,3 @@
 /// @description Discharge available
 
-discharge_avail = true;
+powerdown_avail = true;

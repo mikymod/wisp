@@ -93,6 +93,26 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "0abddea1-73e0-4a51-b1a5-7822483706b3"
+        },
+        {
+            "id": "b83139d6-ef4a-4ded-9fb2-76539afbd3d2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "0abddea1-73e0-4a51-b1a5-7822483706b3"
+        },
+        {
+            "id": "7960b137-ee30-4af3-9b41-1aadc9744fe8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "0abddea1-73e0-4a51-b1a5-7822483706b3"
         }
     ],
     "maskSpriteId": "012179b2-e861-4a88-b8e9-ff3ed9307a0a",
@@ -279,6 +299,48 @@
             "value": "9",
             "varName": "jump_grace_step",
             "varType": 1
+        },
+        {
+            "id": "40b6363d-eeae-4f1b-9fdf-5c91a117bfc0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.0",
+            "varName": "normal_scale",
+            "varType": 0
+        },
+        {
+            "id": "3ab1dbe6-4286-480a-b38c-ef42a3765fdb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "agile_scale",
+            "varType": 0
+        },
+        {
+            "id": "c0792b27-c7e8-48e0-bd7c-8cb2f70ef0e4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.0",
+            "varName": "strength_scale",
+            "varType": 0
         }
     ],
     "solid": false,

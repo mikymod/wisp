@@ -6,18 +6,19 @@ key_up          = 0;
 key_down        = 0;
 key_action      = 0;
 key_action_held = 0;
-key_discharge   = 0;
+key_powerdown   = 0;
 
 // Movement
 vel_x = 0;
 vel_y = 0;
-cur_jump_speed = 0;
+cur_jump_speed = jump_speed;
 
 // Subpixel movement
 reminder_x = 0;
 reminder_y = 0;
 
 // Orientation
+cur_scale = normal_scale;
 facing = 1;
 
 // Collisions
@@ -41,6 +42,8 @@ enum PlayerState
 	Fall,
 	Land,
 	Dead,
+	PowerUp,
+	PowerDown,
 	LENGTH
 }
 state_machine_init();
@@ -50,6 +53,8 @@ state_create(PlayerState.Jump,  player_jump);
 state_create(PlayerState.Fall,  player_fall);
 state_create(PlayerState.Land, player_land);
 state_create(PlayerState.Dead,  player_dead);
+state_create(PlayerState.PowerUp, player_powerup);
+state_create(PlayerState.PowerDown, player_powerdown);
 state_set_default(PlayerState.Idle);
 
 // Power Levels
@@ -63,5 +68,5 @@ enum PowerLevel
 
 power_level = PowerLevel.Normal;
 wisps_list = array_create(PowerLevel.LENGTH);
-discharge_avail = true;
+powerdown_avail = true;
 discharge_cd = 60;

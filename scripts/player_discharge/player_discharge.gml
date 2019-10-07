@@ -1,4 +1,4 @@
-if (!discharge_avail) return;
+if (!powerdown_avail) return;
 if (power_level == PowerLevel.Normal)
 {
 	// Play Sound
@@ -19,5 +19,8 @@ if (!audio_is_playing(snd_powerdown))
 		audio_play_sound(snd_powerdown, 2, false);
 
 // Disable discharge and put on cooldown
-discharge_avail = false;
+powerdown_avail = false;
 alarm_set(1, discharge_cd);
+
+// Fx
+sprite_index = spr_powerdown;

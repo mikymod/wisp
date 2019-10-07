@@ -26,5 +26,14 @@ if (!on_ground)
 }
 
 // Discharge
-if (key_discharge)
-	player_discharge();
+if (key_powerdown)
+{
+	if (powerdown_avail && power_level > PowerLevel.Normal)
+		state_switch(PlayerState.PowerDown, true);
+	else
+	{
+		// Play Sound
+		if (!audio_is_playing(snd_powerdown_fail))
+			audio_play_sound(snd_powerdown_fail, 2, false);
+	}
+}

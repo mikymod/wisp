@@ -6,7 +6,7 @@ if (!input_disabled)
 	key_up          = input_check_analogue(0, InputAction.UP);
 	key_down        = input_check_analogue(0, InputAction.DOWN);
 	key_action      = input_check_pressed(0, InputAction.ACTION);
-	key_discharge   = input_check_pressed(0, InputAction.DISCHARGE);
+	key_powerdown   = input_check_pressed(0, InputAction.DISCHARGE);
 	key_action_held = input_check(0, InputAction.ACTION);
 }
 
@@ -37,32 +37,7 @@ if (key_action)
 if (vel_x != 0)
 	facing = sign(vel_x);
 	
-image_xscale = facing;
-
-// Power Level
-switch (power_level)
-{
-	case PowerLevel.Normal:
-	{
-		cur_jump_speed = jump_speed;
-		image_xscale = facing;
-		image_yscale = 1;
-		break;
-	}
-	case PowerLevel.Agile:
-	{
-		cur_jump_speed = agile_jump_speed;
-		image_xscale = 1.5 * facing;
-		image_yscale = 1.5;
-		break;
-	}
-	case PowerLevel.Strength:
-	{
-		cur_jump_speed = strenth_jump_speed;
-		image_xscale = 2 * facing;
-		image_yscale = 2;
-		break;
-	}
-}
+image_xscale = cur_scale * facing;
+image_yscale = cur_scale;
 
 state_step();
