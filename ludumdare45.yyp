@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0706370e-7a24-4f09-8942-dc3f87b1ee2d",
+            "Value": {
+                "id": "37e607dc-81b4-4fa9-b50a-bbe73d859fc2",
+                "resourcePath": "objects\\obj_treasure\\obj_treasure.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "095133cf-92f4-488b-9b05-87f23075e38e",
             "Value": {
                 "id": "b081e743-d6f2-4c51-900d-d086b3f21166",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "2d2f6394-53a3-42c0-856f-82f749ff9ef9",
+            "Value": {
+                "id": "ceb3cf5c-c980-462c-8cbf-e0c8ba609363",
+                "resourcePath": "sprites\\spr_treasure\\spr_treasure.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d8cb6da-846a-4729-856a-189eb2fc50ac",
             "Value": {
                 "id": "7a4fc199-d38d-41ec-8247-c5cebd1ebe69",
@@ -292,14 +308,6 @@
                 "id": "4b7166a8-fa99-472e-a072-ad2750cce989",
                 "resourcePath": "sprites\\spr_eye_hazard\\spr_eye_hazard.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4443ea31-e312-4889-8f24-1e7f87b547f0",
-            "Value": {
-                "id": "229554d1-d201-497a-9936-8ab1cfd11e29",
-                "resourcePath": "rooms\\room_end\\room_end.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -476,6 +484,14 @@
                 "id": "a17a7160-a3ea-4073-b794-c3072b9cadc6",
                 "resourcePath": "sprites\\spr_bubble_hazard\\spr_bubble_hazard.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6fe7f809-7936-49ab-8adc-5606a9c45404",
+            "Value": {
+                "id": "64d0e5e5-2185-4623-80b9-5adb80609a51",
+                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
