@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "22668e2e-bbad-4798-bda0-cefcf17001c9",
+            "Value": {
+                "id": "40d838ec-ad1c-4e29-bc55-cdae8ed7001b",
+                "resourcePath": "scripts\\camera_shake\\camera_shake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "25829892-6d78-4db8-bad9-0eb38270eaf1",
             "Value": {
                 "id": "3f2ce134-22b2-4e11-a88b-97fed524fb79",
@@ -1216,7 +1224,8 @@
         "3bd6c649-fcb0-497d-9f6c-b8d0ba0924fd",
         "65649d2e-adda-44b4-a61b-581136a31f05",
         "da629269-3d49-4ba6-8f6c-3cb87c8ea2a1",
-        "8e5fbbb2-de23-4379-bf31-123977386063"
+        "8e5fbbb2-de23-4379-bf31-123977386063",
+        "22668e2e-bbad-4798-bda0-cefcf17001c9"
     ],
     "tutorial": ""
 }

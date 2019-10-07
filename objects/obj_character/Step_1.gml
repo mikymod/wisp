@@ -10,8 +10,10 @@ wall_target   = (collision_left ? instance_place(x - 1, y, obj_solid) :
 					(collision_right ? instance_place(x + 1, y, obj_solid) : noone));
 
 // Play Sound
-if (prev_on_ground != on_ground)
+if (on_ground && prev_on_ground != on_ground)
+{
 	audio_play_sound(snd_land, 2, false);
+}
 
 //switch (_state_curr)
 //{

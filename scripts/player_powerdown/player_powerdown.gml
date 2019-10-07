@@ -17,6 +17,8 @@ if (state_is_new())
 	// Disable discharge and put on cooldown
 	powerdown_avail = false;
 	alarm_set(1, discharge_cd);
+	
+	camera_shake();
 }
 
 // Stop movement

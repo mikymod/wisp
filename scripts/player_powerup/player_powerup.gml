@@ -9,6 +9,8 @@ if (state_is_new())
 		audio_play_sound(snd_powerup_1, 2, false);
 	else if (power_level == PowerLevel.Strength)
 		audio_play_sound(snd_powerup_1, 2, false);
+		
+	camera_shake();
 }
 
 // Stop movement
