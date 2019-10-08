@@ -1,1 +1,1 @@
-audio_sound_gain(global.music_theme_6_8, 0.5, 8000);
+audio_sound_gain(global.music_theme_6_8, 0.6, 16000);

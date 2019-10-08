@@ -1,1 +1,1 @@
-audio_stop_sound(snd_evil_eye);
+audio_stop_sound(sound);
