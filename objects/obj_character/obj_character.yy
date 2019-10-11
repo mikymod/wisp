@@ -170,7 +170,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.1",
+            "value": "1.3",
             "varName": "run_speed",
             "varType": 0
         },
