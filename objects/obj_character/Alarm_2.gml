@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Activate buff
 
-instance_activate_object(wisps_list[power_level]);
+game_instance_activate(wisps_list[power_level]);

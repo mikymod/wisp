@@ -1,5 +1,5 @@
 // Disable power up
-instance_deactivate_object(other.id);
+game_instance_deactivate(other.id);
 
 // Save reference for reactivation
 wisps_list[power_level] = other.id;

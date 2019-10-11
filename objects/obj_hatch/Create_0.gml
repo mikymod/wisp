@@ -1,2 +1,2 @@
 if (!active)
-	instance_deactivate_object(id);
+	game_instance_deactivate(id);

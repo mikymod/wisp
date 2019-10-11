@@ -1,0 +1,1 @@
+ds_map_destroy(global.prepause_inactive_inst);

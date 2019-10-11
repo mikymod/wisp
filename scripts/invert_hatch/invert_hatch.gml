@@ -2,17 +2,17 @@
 for (i = 0; i < ds_list_size(hatches); i++)
 {
 	var hatch = hatches[|i];
-	instance_activate_object(hatch);
+	game_instance_activate(hatch);
 	with (hatch)
 	{
 		if (active)
 		{
-			instance_deactivate_object(id);
+			game_instance_deactivate(id);
 			show_debug_message("Deactivate " + string(id));
 		}
 		else
 		{
-			instance_activate_object(id);
+			game_instance_activate(id);
 			show_debug_message("Activate " + string(id));
 		}
 		

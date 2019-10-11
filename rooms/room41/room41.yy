@@ -68,7 +68,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "wisps",
+            "name": "powerups",
             "id": "c0bc0044-d66b-4387-84f9-6c8367bd9c57",
             "depth": 100,
             "grid_x": 8,
