@@ -7,7 +7,8 @@ else
 // Idle
 if (on_ground)
 {
-	state_switch(PlayerState.Land, true);
+	//state_switch(PlayerState.Land, true);
+	state_switch(PlayerState.Idle, true);
 }
 
 // Wall jump

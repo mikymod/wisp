@@ -40,7 +40,6 @@ enum PlayerState
 	Run,
 	Jump,
 	Fall,
-	Land,
 	Dead,
 	PowerUp,
 	PowerDown,
@@ -51,7 +50,6 @@ state_create(PlayerState.Idle,  player_idle);
 state_create(PlayerState.Run,   player_run);
 state_create(PlayerState.Jump,  player_jump);
 state_create(PlayerState.Fall,  player_fall);
-state_create(PlayerState.Land, player_land);
 state_create(PlayerState.Dead,  player_dead);
 state_create(PlayerState.PowerUp, player_powerup);
 state_create(PlayerState.PowerDown, player_powerdown);
