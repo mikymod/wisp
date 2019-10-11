@@ -1,1 +1,1 @@
-// avoid draw
+/// @description Avoid draw itself

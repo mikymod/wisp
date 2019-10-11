@@ -1,2 +1,3 @@
-/// @description Go to main menu
-room_goto_next();
+/// @description Become skipable
+
+skipable = true;
